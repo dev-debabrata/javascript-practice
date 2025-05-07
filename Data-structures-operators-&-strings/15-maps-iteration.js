@@ -77,5 +77,5 @@ console.log(question.get(question.get('correct') === answer));
 
 // Convert map to array
 console.log([...question]);
-console.log([...question.key()]);
+console.log([...question.keys()]);
 console.log([...question.values()]);
