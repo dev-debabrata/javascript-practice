@@ -1,6 +1,7 @@
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 
+
 // Strings
 const owners = ['Jonas', 'Zach', 'Adam', 'Martha'];
 console.log(owners.sort());

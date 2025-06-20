@@ -35,6 +35,7 @@ const accounts = [account1, account2, account3, account4];
 const movements = [200, 450, -400, 3000, -650, -130, 70, 1300];
 
 
+
 console.log(movements);
 
 const groupedMovements = Object.groupBy(movements, movement =>
