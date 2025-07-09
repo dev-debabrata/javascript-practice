@@ -22,11 +22,6 @@ const nikhil = new Person('Nikhil', 1975);
 
 console.log(debu instanceof Person);
 
-Person.hey = function () {
-    console.log('Hey there 👋');
-    console.log(this);
-};
-Person.hey();
 
 
 console.log(Person.prototype);
