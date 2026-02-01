@@ -8,7 +8,7 @@
 
 
 function isEvenOdd(num) {
-    return num % 2 === 0 ? "Even number" : "Odd number";
+    return num % 2 === 0 ? "Even Number" : "Odd Number";
 }
 
 console.log(isEvenOdd(10));
