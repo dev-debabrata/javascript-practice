@@ -1,15 +1,30 @@
-function isPalindrome(num) {
-    if (num < 0) return false;
+// function isPalindrome(num) {
+//     if (num < 0) return false;
 
+//     let original = num;
+//     let reversed = 0;
+
+//     while (num > 0) {
+//         let digit = num % 10;
+//         reversed = reversed * 10 + digit;
+//         num = Math.floor(num / 10);
+//     }
+//     return original === reversed;
+// }
+
+// console.log(isPalindrome(121));
+
+function isPalindrome(num) {
     let original = num;
-    let reversed = 0;
+    let reverse = 0;
 
     while (num > 0) {
         let digit = num % 10;
-        reversed = reversed * 10 + digit;
+        reverse = reverse * 10 + digit;
+        // reverse = reverse * 10 + (num % 10);
         num = Math.floor(num / 10);
     }
-    return original === reversed;
+    return original === reverse;
 }
 
 console.log(isPalindrome(121));
